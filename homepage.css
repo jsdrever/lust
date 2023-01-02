@@ -31,7 +31,7 @@ h1 {
 
 #btn {
     position: absolute;
-    display: flex;
+    /* display: inline; why are you overlapping */
     top: 90%;
     left: 30%;
     color: rgb(163, 40, 138);
