@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(9, 9, 47);
+    }
+    .stellar {
+        height: 500px;
+        width: 100%;
+        margin-top: 0px;
+        background-image: url("/lust-photos/stellar.webp");
+        background-position: center;
+        background-size: cover;
+    }
+    .wrapper {
+        border: 5px solid pink;
+        background-color: rgb(231, 176, 105);
+        /* I want a linear gradient that starts on the edges and goes to the inside */
+        
+    }
+    
+    .championsDisplay {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    
+    }
+    
+    .listItem {
+      padding: 10px;
+      margin: 15px;
+    }
+    h1 {
+        color: rgb(12, 7, 105);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .results {
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .flip-it {
+        height: 500px;
+        width: 100%;
+        margin-top: 0px;
+        background-image: url("/lust-photos/stellar.webp");
+        background-position: center;
+        background-size: cover;
+        transform: scaleY(-1);    
+    }
+    .initialHere {
+        justify-content: center;
+        align-items: center;
+    }
+    #btn {
+        font-size: 20px;
+        border: 2px solid;
+        background-color: rgb(130, 152, 190);
+        border-radius: 5px;
+        outline: 1px;
+    }
+    @media (max-width: 690px) {
+        img {
+          height: 500px;
+        }
+      
+        #password {
+          font-size: 1rem;
+        }
+      }
+      
+      @media (max-width: 500px) {
+        img {
+            height: 500px;
+          }
+      }
