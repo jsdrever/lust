@@ -1,0 +1,49 @@
+
+    .video-container{
+        width: 100vw;
+        height: 100vh;
+      }
+          
+      iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100vw;
+        height: 100vh;
+        transform: translate(-50%, -50%);
+      }
+
+      #text{
+        position: absolute;
+        color: #FFFFFF;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%, -50%);
+      }
+      h1 {
+        justify-content: center;
+        text-align: center;
+      }
+      .btn {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        color: rgb(163, 40, 138);
+        background-color: black;
+        font-family: chalkduster, fantasy;
+        font-size: 30px;
+        border-radius: .5rem;
+      }
+      @media (min-aspect-ratio: 16/9) {
+        .video-container iframe {
+          /* height = 100 * (9 / 16) = 56.25 */
+          height: 56.25vw;
+        }
+      }
+          
+      @media (max-aspect-ratio: 16/9) {
+        .video-container iframe {
+          /* width = 100 / (9 / 16) = 177.777777 */
+          width: 177.78vh;
+        }
+      }
