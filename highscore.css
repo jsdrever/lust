@@ -15,7 +15,13 @@ body {
         /* I want a linear gradient that starts on the edges and goes to the inside */
         
     }
-    
+    #highScoresList {
+        list-style: none;
+        margin-bottom: 4rem;
+    }
+    .high-score {
+        font-size: 0.5rem;
+    }
     .championsDisplay {
       display: flex;
       flex-direction: row;

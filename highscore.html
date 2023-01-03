@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="highscore.css">
     <script> src="highscore.js" </script>
+    <script src="/end.js"></script>
     <title>Highscore</title>
 </head>
 <body>
     <div class="stellar"></div>
     <section class="wrapper">
-        
-        <h1>Highscore</h1>
-        <div class="results">Champions
-            <ol class="championsDisplay">
-                <li class="listItem">
+        <div class="container">
+            <div id="highScores" class="flex-center flex-column">
+                <h1 class="finalScore">Champions</h1>
+            </div>
+            <ol id="highScoresList">
+                <!-- <li class="listItem">
                     JSD
                 </li><li class="listItem">
                     JSD
@@ -26,11 +28,12 @@
                 </li>
                 <li class="listItem">
                     JSD
-                </li>
+                </li> -->
             </ol>
+            <a href="/homepage.html" class="btn">Home</a>
             
         </div>
-        <input type="text" placeholder="Initial Here" name="initialHere" id="initialHere" class="initial-here">
+        <input type="text" placeholder="Initial Here" name="initialHere" id="username" class="initial-here">
             <button id="btn" class="accept">Accept ID</button>
             <a href="/game.html" id="btn" class="playButton">
             <button  class="playButton" id="btn">Play Again</button></a>
@@ -40,4 +43,5 @@
     </section>
     <div class="flip-it"></div>
 </body>
-</html>
+</html>  
+
